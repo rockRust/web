@@ -12,6 +12,7 @@
 
 # User Stuff
 .idea/*
+.mvn/*
 
 
 # Package Files #
