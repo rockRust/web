@@ -1,9 +1,9 @@
-package com.wrx.js.web.controllers;
+package com.wrx.js.web.controller;
 
 import com.alibaba.excel.EasyExcel;
-import com.wrx.js.web.StudentVo;
+import com.wrx.js.web.model.StudentVo;
 import com.wrx.js.web.reponse.ResultData;
-import com.wrx.js.web.services.ExcelCreatService;
+import com.wrx.js.web.service.ExcelCreatService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

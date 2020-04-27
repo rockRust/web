@@ -3,8 +3,8 @@ package com.wrx.js.web.excel;
 import com.alibaba.excel.EasyExcel;
 import com.alibaba.excel.ExcelWriter;
 import com.alibaba.excel.write.metadata.WriteSheet;
-import com.wrx.js.web.StudentVo;
-import com.wrx.js.web.services.ExcelCreatService;
+import com.wrx.js.web.model.StudentVo;
+import com.wrx.js.web.service.ExcelCreatService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 

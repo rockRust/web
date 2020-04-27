@@ -1,4 +1,4 @@
-package com.wrx.js.web;
+package com.wrx.js.web.model;
 
 import com.alibaba.excel.annotation.ExcelIgnore;
 import lombok.Data;

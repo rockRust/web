@@ -1,6 +1,6 @@
-package com.wrx.js.web.services;
+package com.wrx.js.web.service;
 
-import com.wrx.js.web.StudentVo;
+import com.wrx.js.web.model.StudentVo;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
