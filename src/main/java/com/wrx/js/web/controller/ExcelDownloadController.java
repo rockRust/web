@@ -4,6 +4,7 @@ import com.alibaba.excel.EasyExcel;
 import com.wrx.js.web.model.StudentVo;
 import com.wrx.js.web.reponse.ResultData;
 import com.wrx.js.web.service.ExcelCreatService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,6 +17,7 @@ import java.net.URLEncoder;
  * @desc
  * @date 2020/4/6
  */
+@Slf4j
 @RestController
 public class ExcelDownloadController {
 
@@ -24,6 +26,7 @@ public class ExcelDownloadController {
 
     @RequestMapping(value = "/hello")
     public ResultData hello() {
+        log.info("hello world");
         return ResultData.of("hello");
     }
 
