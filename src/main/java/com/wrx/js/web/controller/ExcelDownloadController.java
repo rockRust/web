@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.net.URLEncoder;
 
@@ -25,7 +26,7 @@ public class ExcelDownloadController {
     private ExcelCreatService mExcelCreatService;
 
     @RequestMapping(value = "/hello")
-    public ResultData hello() {
+    public ResultData hello(HttpServletRequest request) {
         log.info("hello world");
         return ResultData.of("hello");
     }
